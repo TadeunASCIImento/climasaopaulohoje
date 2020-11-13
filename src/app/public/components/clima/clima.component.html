@@ -1,0 +1,22 @@
+<div class="container-fluid">
+  <h1>Clima em {{clima.name}}
+    -
+    {{clima.state}}
+    ( {{clima.country}} )
+    {{clima.data.date}}
+  </h1>
+  <div class="dados">
+    <div class="boxtemperatura">
+    <h2>{{clima.data.condition}}</h2>
+    <img [src]="nuvens" alt="nuvens">
+    <p>Temperatura</p>
+    <p class="temperatura">{{clima.data.temperature}}°C</p>
+    <p>Sensação: {{clima.data.sensation}}°C<br>
+      Umidade: {{clima.data.humidity}}%<br>
+      Pressão:{{clima.data.pressure}}<br>
+      Direção vento:{{clima.data.wind_direction}}<br>
+      Velocidade vento:{{clima.data.wind_velocity}} Km/h
+    </p>
+</div>
+</div>
+</div>

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Stanberry;
+  src: url("/src/assets/fonts/stanberry/Stanberry.ttf")
+}
+*{
+  font-family: cursive;
+}
+p{
+  font-size: 1.5em;
+}
+.temperatura{
+
+  font-size: 2.5em;
+}
+.container-fluid{
+ margin: 20px;
+
+}
+
